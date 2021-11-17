@@ -1,0 +1,12 @@
+button{
+    display: flex;
+}
+.Ahem{
+    flex:2;
+}
+.Applause{
+    flex:3;
+}
+.Blip{
+    flex:2;
+}
