@@ -3,20 +3,19 @@ window.onload = function(){
     var buttonElementApplause = document.getElementById("Applause")
     var buttonElementBlip = document.getElementById("Blip")
 
-    var audioAhem = new Audio('ahem_x.wav')
-    var audioApplause = new Audio('applause_y.wav')
-    var audioBlip = new Audio('blip.wav')
-
     function playSoundAhem(){
-        Audio.play(audioAhem);
+        var audioAhem = new Audio('ahem_x.wav')
+        audio.play();
     }
 
     function playSoundApplause(){
-        Audio.play(audioApplause);
+        var audioApplause = new Audio('applause_y.wav')
+        audio.play();
     }
 
     function playSoundBlip(){
-        Audio.play(audioBlip);
+        var audioBlip = new Audio('blip.wav')
+        audio.play();
     }
 
     buttonElementAhem.addEventListener('click', playSoundAhem);
