@@ -5,17 +5,17 @@ window.onload = function(){
 
     function playSoundAhem(){
         var audioAhem = new Audio('ahem_x.wav')
-        audio.play();
+        audio.play(audioAhem);
     }
 
     function playSoundApplause(){
         var audioApplause = new Audio('applause_y.wav')
-        audio.play();
+        audio.play(audioApplause);
     }
 
     function playSoundBlip(){
         var audioBlip = new Audio('blip.wav')
-        audio.play();
+        audio.play(audioBlip);
     }
 
     buttonElementAhem.addEventListener("click", playSoundAhem);
