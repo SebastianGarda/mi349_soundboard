@@ -12,11 +12,11 @@ window.onload = function(){
     }
 
     function playSoundApplause(){
-        Audio.play(audioAhem);
+        Audio.play(audioApplause);
     }
 
     function playSoundBlip(){
-        Audio.play(audioAhem);
+        Audio.play(audioBlip);
     }
 
     buttonElementAhem.addEventListener('click', playSoundAhem);
