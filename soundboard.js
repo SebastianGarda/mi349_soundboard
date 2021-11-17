@@ -18,7 +18,7 @@ window.onload = function(){
         audio.play();
     }
 
-    buttonElementAhem.addEventListener('click', playSoundAhem);
-    buttonElementApplause.addEventListener('click', playSoundApplause);
-    buttonElementBlip.addEventListener('click', playSoundBlip);
+    buttonElementAhem.addEventListener("click", playSoundAhem);
+    buttonElementApplause.addEventListener("click", playSoundApplause);
+    buttonElementBlip.addEventListener("click", playSoundBlip);
 }
