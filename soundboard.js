@@ -7,9 +7,19 @@ window.onload = function(){
     var audioApplause = new Audio('applause_y.wav')
     var audioBlip = new Audio('blip.wav')
 
-    function playSound(){
-
+    function playSoundAhem(){
+        Audio.play(audioAhem);
     }
 
-    buttonElement.addEventListener('click', playSound);
+    function playSoundApplause(){
+        Audio.play(audioAhem);
+    }
+
+    function playSoundBlip(){
+        Audio.play(audioAhem);
+    }
+
+    buttonElementAhem.addEventListener('click', playSoundAhem);
+    buttonElementApplause.addEventListener('click', playSoundApplause);
+    buttonElementBlip.addEventListener('click', playSoundBlip);
 }
