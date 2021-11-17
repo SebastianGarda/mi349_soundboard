@@ -1,12 +1,10 @@
-body{
+div{
     display: flex;
+    flex-direction: column;
+    width: 100%;
 }
-.Ahem{
-    flex:2;
-}
-.Applause{
-    flex:3;
-}
-.Blip{
-    flex:2;
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
