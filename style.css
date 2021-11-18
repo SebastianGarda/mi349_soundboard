@@ -3,6 +3,10 @@ div{
     flex-direction: column;
 }
 
+header{
+    justify-content: center;
+}
+
 button{
     display: flex;
     flex-direction: row;
